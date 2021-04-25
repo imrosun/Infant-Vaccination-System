@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Patient List</ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="postjob()">
+        <ion-icon name="add"></ion-icon> Add Patient
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-list>
+    <ion-list-header>
+      Patient List
+    </ion-list-header>
+    <ion-item *ngFor="let patient of patients">
+      <ion-thumbnail item-start>
+        <img src="assets/patient.png">
+      </ion-thumbnail>
+      <h2>{{patient.Dname}}</h2>
+      <p>Date of Birth : <b>{{patient.startDate  | date}}</b></p>      
+      <!-- <span>{{patient.salary}} - {{patient.location}}</span> -->
+      <button ion-button clear item-end (click)="openDetail(patient)">View</button>
+    </ion-item>
+  </ion-list>
+</ion-content>

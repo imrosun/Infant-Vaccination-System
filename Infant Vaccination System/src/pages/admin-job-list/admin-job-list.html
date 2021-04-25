@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>Patient List</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-list>
+    <ion-list-header>
+      Patient List
+    </ion-list-header>
+    <ion-item *ngFor="let patient of medicines">
+      <h2>{{patient.Dname}}</h2>
+      <p>{{patient.email}}</p>
+      <!-- <span>{{patient.salary}} - {{patient.location}}</span> -->
+      <button ion-button clear item-end (click)="openDetail(patient)">View</button>
+    </ion-item>
+  </ion-list>
+
+</ion-content>
