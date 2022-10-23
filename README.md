@@ -11,7 +11,7 @@ You can leave your comments for any queries.
 
 ## Languages and tools used
 <div>
-  <img src="https://github.com/imrosun/StudentHTMLformJPDB/blob/main/icon/html5-plain-wordmark.svg" title="HTML" alt="HTML" width="40" height="40"/>&nbsp;
+  <img src="Screenshots/html.png" title="HTML" alt="HTML" width="40" height="40"/>&nbsp;
   <img src="https://github.com/imrosun/StudentHTMLformJPDB/blob/main/icon/css3-plain-wordmark.svg" title="CSS" alt="CSS" width="40" height="40"/>&nbsp;
   <img src="https://github.com/imrosun/StudentHTMLformJPDB/blob/main/icon/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp; 
 </div> 
