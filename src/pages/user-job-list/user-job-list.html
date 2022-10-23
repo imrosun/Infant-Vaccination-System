@@ -1,0 +1,21 @@
+<ion-header>
+    <ion-navbar>
+    <ion-title>Medicine Scheduled</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-list-header>
+      Medicine Name
+    </ion-list-header>
+    <ion-item *ngFor="let medicine of medicines">
+
+      <h2>{{medicine.Dname}}</h2>
+      <p>Next Vaccine :
+        <b>{{medicine.v1 | amDateFormat:'LL'}}</b>
+      </p>
+      <button ion-button clear item-end (click)="openDetail(medicine)">View</button>
+    </ion-item>
+  </ion-list>
+</ion-content>

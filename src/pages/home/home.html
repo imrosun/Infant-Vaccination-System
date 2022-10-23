@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      <h3>Welcome to VaccineAid, {{userData.Dname}}!</h3>
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="logout()">
+        <ion-icon name="log-out"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="home-content" padding>
+   Email is: {{userData.email}}
+   <br> <br><ion-list-header>
+  
+   <h1>Vaccination</h1>
+  </ion-list-header>
+  <div *ngIf="medicines">
+    <ion-item *ngFor="let medicine of medicines">
+        <h2>Next Vaccine : DPT | OPV | HBV</h2>
+        <p>{{medicine.v1 | amDifference: today :'days' : true | round}} days left</p>
+      <p>Birth: {{medicine.startDate}}</p>
+    </ion-item>
+  </div>
+ 
+</ion-content>

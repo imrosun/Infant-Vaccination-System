@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Search Job
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-searchbar [(ngModel)]="myInput" [showCancelButton]="shouldShowCancel" (ionInput)="onInput($event)" (ionCancel)="onCancel($event)">
+  </ion-searchbar>
+  <ion-list radio-group>
+    <ion-list-header>
+      Job List
+    </ion-list-header>
+    <ion-item>Job1</ion-item>
+    <ion-item>Job2</ion-item>
+    <ion-item>Job3</ion-item>
+    <ion-item>Job4</ion-item>
+  </ion-list>
+</ion-content>

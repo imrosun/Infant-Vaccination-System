@@ -1,0 +1,118 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Scheduled Medicine Detail</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+
+    <ion-item>
+      <h2>{{patient.Dname}}</h2>
+      <p>{{patient.email}}</p>
+      <p>Birth: {{patient.startDate}}</p>
+    </ion-item>
+    <ion-item>
+        <h2>BCG(Bacillus Calmette-Guerin)</h2>
+        <h2>OPV 0(Oral Polio Vaccine)</h2>   
+        <h2>Hepatitis B1</h2>
+      <p>At Birth: {{patient.startDate}}</p>
+    </ion-item>
+
+    <ion-item>
+        <h2>DTP 1(Diptheria,Tetanus and Pertussis)</h2> 
+        <h2>IPV 1(Inactivated Polio Vaccine)</h2>
+        <h2>Hepatitis B2</h2>
+        <h2>Hib 1(Haemophilus Influenzae Type B)</h2>
+        <h2>Rotavirus 1</h2>
+        <h2>PCV 1(Pneumococcal Conjugate Vaccine)</h2>
+      <p>6 Weeks - {{patient.v1 | date}}</p>
+    </ion-item>
+
+    <ion-item>
+        <h2>DTP 2(Diptheria,Tetanus and Pertussis)</h2> 
+        <h2>IPV 2(Inactivated Polio Vaccine)</h2>
+        <h2>Hib 2(Haemophilus Influenzae Type B)</h2>
+        <h2>Rotavirus 2</h2>
+        <h2>PCV 2(Pneumococcal Conjugate Vaccine)</h2>
+      <p>10 Weeks - {{patient.v2 | date}}</p>
+    </ion-item>
+
+    <ion-item>
+        <h2>DTP 3(Diptheria,Tetanus and Pertussis)</h2> 
+        <h2>IPV 3(Inactivated Polio Vaccine)</h2>
+        <h2>Hib 3(Haemophilus Influenzae Type B)</h2>
+        <h2>Rotavirus 3</h2>
+        <h2>PCV 3(Pneumococcal Conjugate Vaccine)</h2>
+      <p>14 Weeks - {{patient.v3 | date}}</p>
+    </ion-item>
+
+    <ion-item>
+        <h2>OPV 1(Oral Polio Vaccine)</h2>   
+        <h2>Hepatitis B3</h2>
+      <p>6 months - {{patient.v4 | date}}</p>
+    </ion-item>
+
+    <ion-item>
+      <h2>OPV 2(Oral Polio Vaccine)</h2>
+      <h2>MMR 1(Measles,Mumps,and Rubella)</h2>
+      <p>9 months - {{patient.v5 | date}}</p>
+    </ion-item>
+
+    <ion-item>
+      <h2>Typhoid Conjugate Vaccine</h2>
+      <p>9-12 months - {{patient.v6 | date}}</p>
+    </ion-item>
+
+    <ion-item>
+        <h2>Hepatitis A1</h2>
+        <p>12 months - {{patient.v6 | date}}</p>
+      </ion-item>
+
+    <ion-item>
+      <h2>MMR 2(Measles Mumps and Rubella)</h2>
+      <h2>Varicella 1</h2>
+      <h2>PCV Booster</h2>
+      <p>15 months - {{patient.v7 | date}}</p>
+    </ion-item>
+
+    <ion-item>
+        <h2>DTP B1(Diptheria,Tetanus and Pertussis)</h2> 
+        <h2>IPV B1(Inactivated Polio Vaccine)</h2>
+        <h2>Hib B1(Haemophilus Influenzae Type B)</h2>
+      <p>16 - 18 months - {{patient.v8 | date}}</p>
+    </ion-item>
+
+    <ion-item>
+       <h2>Hepatitis A2</h2>
+      <p>18 months - {{patient.v8 | date}}</p>
+    </ion-item>
+
+
+    <ion-item>
+      <h2>Booster of typhoid conjugate vaccine</h2>
+      <p>2 year - {{patient.v9 | date}}</p>
+    </ion-item>
+
+    <ion-item>
+        <h2>DTP B2(Diptheria,Tetanus and Pertussis)</h2>
+        <h2>OPV 3(Oral Polio Vaccine)</h2>
+        <h2>Varicella 2</h2>
+        <h2>MMR 3(Measles Mumps,and Rubella)</h2>
+      <p>4-6 year - {{patient.v10 | date}}</p>
+    </ion-item>
+
+   
+
+    <ion-item>
+      <h2>Tdap/Td</h2>
+      <h2>HPV(Human Papilloma Virus)</h2>
+      <p>10-12 year - {{patient.v12 | date}}</p>
+    </ion-item>
+
+    
+
+    
+
+  </ion-list>
+</ion-content>
