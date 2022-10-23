@@ -1,5 +1,5 @@
 # Infant-Vaccination-System
-Reminder for infant babies parent about their next vaccine.
+Reminder for infant baby parent about their next vaccine.
 
 This is my BCA Project April-2018
 
