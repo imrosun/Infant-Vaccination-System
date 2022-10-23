@@ -1,5 +1,5 @@
 # Infant-Vaccination-System
-using AngularJS 
+using Typescript
 
 
 This is my BCA Project April-2018
